@@ -1,0 +1,10 @@
+I want to create a python app. It should use python flask and docker. Here is what the app should do.
+
+1. It should start with asking the username. Once the user types and submit's the name, it should display message: "Hi <name>, Welcome to this sample test app. Hope you have a good day."
+2. In the next screen. The app will have an option for the user to upload a csv file and click on submit button.
+3. The csv file has two columns City and Population. Once the file is upload by user and clicks on submit, the app will calculate the top 3 cities with highest population, average population and median population and display the output. The output should output with a personal touch. It should display: "Hi <name>, here are the results. Hope this is helpful".
+
+Note: Flask has the serialization issue when displaying pandas dataframe outputs, so please take of formatting when shown in the webpage.
+
+Please generate code for the above project.
+Please do not assume that I would have it. I am still a beginner. Please generate home.html, upload.html, result.html and requirements.txt
