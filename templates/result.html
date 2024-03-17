@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Hi {{username}}, here are the results. Hope this is helpful.</p>
+<p>Top 3 Cities with Highest Population:</p>
+<p>Top 3 Cities with Highest Population:</p>
+<ul>
+{% for city in tables %}
+    <li>{{ city }}</li>
+{% endfor %}
+</ul>
+<p>Average Population: {{avg_population}}</p>
+<p>Median Population: {{median_population}}</p>
+</body>
+</html>

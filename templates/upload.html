@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Hi {{username}}, Welcome to this sample test app. Hope you have a good day.</p>
+<form method="POST" enctype="multipart/form-data">
+    <label for="file">Upload a CSV file:</label>
+    <input type="file" id="file" name="file" accept=".csv" required><br>
+    <input type="hidden" id="username" name="username" value="{{username}}">
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
